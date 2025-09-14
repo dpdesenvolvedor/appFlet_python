@@ -5,7 +5,15 @@ def main(page: ft.Page):
     ft.Text()
 
     titulo1 = ft.Text('Cadastro Paciente')
-    titulo2 = ft.text(value = 'Cadastrode Paciente'),
+    titulo2 = ft.Text(value = 'Cadastrode Paciente',
+                      color = 'blue',
+                      size = 18,
+                      weight = 'bold',
+                      font_family = 'Open Sans')
+        
+    page.add(titulo1, titulo2)
+
+ft.app(target = main)
 
 
 
